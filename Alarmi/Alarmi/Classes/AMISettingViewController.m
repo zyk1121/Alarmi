@@ -1,22 +1,23 @@
 //
-//  ViewController.m
+//  AMISettingViewController.m
 //  Alarmi
 //
 //  Created by zhangyuanke on 16/2/24.
 //  Copyright © 2016年 kdtm. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AMISettingViewController.h"
+#import "Masonry.h"
 
-@interface ViewController ()
+@interface AMISettingViewController ()
 
 @end
 
-@implementation ViewController
+@implementation AMISettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Alarmi";
+    self.title = @"设置";
     self.view.backgroundColor = [UIColor whiteColor];
 }
 

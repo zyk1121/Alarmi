@@ -13,6 +13,14 @@
 		B4E0726B1C7D332400E6A0F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E0726A1C7D332400E6A0F6 /* ViewController.m */; };
 		B4E072701C7D332400E6A0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E0726F1C7D332400E6A0F6 /* Assets.xcassets */; };
 		B4E072731C7D332400E6A0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E072711C7D332400E6A0F6 /* LaunchScreen.storyboard */; };
+		B4E072991C7D368A00E6A0F6 /* AMIMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E072981C7D368A00E6A0F6 /* AMIMineViewController.m */; };
+		B4E0729C1C7D36A500E6A0F6 /* AMISettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E0729B1C7D36A500E6A0F6 /* AMISettingViewController.m */; };
+		B4E072A21C7D370C00E6A0F6 /* icon_tabbar_mine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E0729E1C7D370C00E6A0F6 /* icon_tabbar_mine@2x.png */; };
+		B4E072A31C7D370C00E6A0F6 /* icon_tabbar_mine_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E0729F1C7D370C00E6A0F6 /* icon_tabbar_mine_selected@2x.png */; };
+		B4E072A41C7D370C00E6A0F6 /* icon_tabbar_misc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E072A01C7D370C00E6A0F6 /* icon_tabbar_misc@2x.png */; };
+		B4E072A51C7D370C00E6A0F6 /* icon_tabbar_misc_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E072A11C7D370C00E6A0F6 /* icon_tabbar_misc_selected@2x.png */; };
+		B4E072A71C7D420300E6A0F6 /* icon_btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E072A61C7D420300E6A0F6 /* icon_btn_normal@2x.png */; };
+		B4E072A91C7D540F00E6A0F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E072A81C7D540F00E6A0F6 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,16 @@
 		B4E072741C7D332400E6A0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4E072791C7D332400E6A0F6 /* AlarmiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E072841C7D332400E6A0F6 /* AlarmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E072971C7D368A00E6A0F6 /* AMIMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMIMineViewController.h; sourceTree = "<group>"; };
+		B4E072981C7D368A00E6A0F6 /* AMIMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMIMineViewController.m; sourceTree = "<group>"; };
+		B4E0729A1C7D36A500E6A0F6 /* AMISettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMISettingViewController.h; sourceTree = "<group>"; };
+		B4E0729B1C7D36A500E6A0F6 /* AMISettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMISettingViewController.m; sourceTree = "<group>"; };
+		B4E0729E1C7D370C00E6A0F6 /* icon_tabbar_mine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_mine@2x.png"; sourceTree = "<group>"; };
+		B4E0729F1C7D370C00E6A0F6 /* icon_tabbar_mine_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_mine_selected@2x.png"; sourceTree = "<group>"; };
+		B4E072A01C7D370C00E6A0F6 /* icon_tabbar_misc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_misc@2x.png"; sourceTree = "<group>"; };
+		B4E072A11C7D370C00E6A0F6 /* icon_tabbar_misc_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_misc_selected@2x.png"; sourceTree = "<group>"; };
+		B4E072A61C7D420300E6A0F6 /* icon_btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_btn_normal@2x.png"; sourceTree = "<group>"; };
+		B4E072A81C7D540F00E6A0F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		BAECBD204E561C541656214E /* libPods-Alarmi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Alarmi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E072A91C7D540F00E6A0F6 /* AudioToolbox.framework in Frameworks */,
 				0BE03727963324D26272AAD9 /* libPods-Alarmi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +97,7 @@
 		1AC3EB101C2D475DB19E1769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4E072A81C7D540F00E6A0F6 /* AudioToolbox.framework */,
 				BAECBD204E561C541656214E /* libPods-Alarmi.a */,
 			);
 			name = Frameworks;
@@ -115,6 +135,8 @@
 		B4E072621C7D332400E6A0F6 /* Alarmi */ = {
 			isa = PBXGroup;
 			children = (
+				B4E0729D1C7D370C00E6A0F6 /* Icons */,
+				B4E072961C7D366100E6A0F6 /* Classes */,
 				B4E072661C7D332400E6A0F6 /* AppDelegate.h */,
 				B4E072671C7D332400E6A0F6 /* AppDelegate.m */,
 				B4E072691C7D332400E6A0F6 /* ViewController.h */,
@@ -133,6 +155,29 @@
 				B4E072641C7D332400E6A0F6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4E072961C7D366100E6A0F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4E072971C7D368A00E6A0F6 /* AMIMineViewController.h */,
+				B4E072981C7D368A00E6A0F6 /* AMIMineViewController.m */,
+				B4E0729A1C7D36A500E6A0F6 /* AMISettingViewController.h */,
+				B4E0729B1C7D36A500E6A0F6 /* AMISettingViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B4E0729D1C7D370C00E6A0F6 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B4E0729E1C7D370C00E6A0F6 /* icon_tabbar_mine@2x.png */,
+				B4E0729F1C7D370C00E6A0F6 /* icon_tabbar_mine_selected@2x.png */,
+				B4E072A01C7D370C00E6A0F6 /* icon_tabbar_misc@2x.png */,
+				B4E072A11C7D370C00E6A0F6 /* icon_tabbar_misc_selected@2x.png */,
+				B4E072A61C7D420300E6A0F6 /* icon_btn_normal@2x.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +249,7 @@
 				TargetAttributes = {
 					B4E0725F1C7D332400E6A0F6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 75AXW7E482;
 					};
 					B4E072781C7D332400E6A0F6 = {
 						CreatedOnToolsVersion = 7.2;
@@ -240,7 +286,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E072A41C7D370C00E6A0F6 /* icon_tabbar_misc@2x.png in Resources */,
+				B4E072A71C7D420300E6A0F6 /* icon_btn_normal@2x.png in Resources */,
+				B4E072A21C7D370C00E6A0F6 /* icon_tabbar_mine@2x.png in Resources */,
+				B4E072A51C7D370C00E6A0F6 /* icon_tabbar_misc_selected@2x.png in Resources */,
 				B4E072731C7D332400E6A0F6 /* LaunchScreen.storyboard in Resources */,
+				B4E072A31C7D370C00E6A0F6 /* icon_tabbar_mine_selected@2x.png in Resources */,
 				B4E072701C7D332400E6A0F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E0729C1C7D36A500E6A0F6 /* AMISettingViewController.m in Sources */,
 				B4E0726B1C7D332400E6A0F6 /* ViewController.m in Sources */,
+				B4E072991C7D368A00E6A0F6 /* AMIMineViewController.m in Sources */,
 				B4E072681C7D332400E6A0F6 /* AppDelegate.m in Sources */,
 				B4E072651C7D332400E6A0F6 /* main.m in Sources */,
 			);
@@ -431,9 +484,10 @@
 			baseConfigurationReference = 03BA12D4676F1565F6CFAD45 /* Pods-Alarmi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Alarmi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kdtm.Alarmi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdtm.Alarmi32;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -443,9 +497,10 @@
 			baseConfigurationReference = AA3145581CCBDCF55B2F8E43 /* Pods-Alarmi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Alarmi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kdtm.Alarmi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdtm.Alarmi32;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
