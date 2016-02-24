@@ -56,7 +56,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     NSNumber *value = [[NSUserDefaults standardUserDefaults] objectForKey:@"timevalue"];
-    if (self.hasStartFlag) {
+    if (!self.hasStartFlag) {
         self.label.text = [self convertFromTime:value];
     }
 }
@@ -87,8 +87,8 @@
         int value = [numberValue intValue];
         if (value >= 0) {
             int hour = value / 3600;
-            int minute = (value - value / 3600) / 60;
-            int second = value - (value - value / 3600) / 60;
+            int minute = (value - value / 3600 * 3600) / 60;
+            int second = (value - value / 3600 * 3600) % 60;
             valueString = [NSString stringWithFormat:@"%02d:%02d:%02d", hour, minute, second];
         }
     }

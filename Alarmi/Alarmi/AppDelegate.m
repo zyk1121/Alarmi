@@ -29,8 +29,6 @@
         NSNumber *number = [NSNumber numberWithInt:1];
         [[NSUserDefaults standardUserDefaults] setObject:number forKey:@"timevalue"];
     }
-    NSNumber *number = [NSNumber numberWithInt:10];
-    [[NSUserDefaults standardUserDefaults] setObject:number forKey:@"timevalue"];
     
     // 初始化页面
     [self setupTabbarController];
